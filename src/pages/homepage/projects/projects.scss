@@ -1,0 +1,29 @@
+.projects {
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    
+    .title {
+        padding: 2.5rem 6rem;
+        font-size: 1.4rem;
+        font-weight: 600;
+    }
+
+    .proj-list {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+
+        .project {
+            flex: 1 1 600px;
+            height: 430px;
+            padding: 2rem;
+            background-size: cover;
+            color: #fff;
+
+            .name {
+                margin-bottom: .6rem;
+                font-weight: 600;
+                font-size: 1.3rem;
+            }
+        }
+    }
+}

@@ -1,0 +1,43 @@
+.navbar {
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+    justify-content: space-between;
+
+    img {
+        cursor: pointer;
+    }
+
+    .links {
+        display: flex;
+
+        li {
+            list-style: none;
+            color: #fff;
+            margin: 0 1rem;
+            position: relative;
+            padding-bottom: 2px;
+            margin-block: 2px;
+
+            &::after {
+                content: "";
+                width: 100%;
+                height: 1px;
+                background-color: #fff;
+                border-radius: 4px;
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                transform: scaleX(0);
+                transform-origin: left;
+                transition: transform .25s ease;
+            }
+
+            &:hover::after {
+                transform: scaleX(1);
+            }
+        }
+        
+
+    }
+}
