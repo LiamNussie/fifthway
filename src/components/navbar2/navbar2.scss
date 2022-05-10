@@ -6,10 +6,15 @@
 
     img {
         cursor: pointer;
+        padding-left: 10px;
     }
 
     .links {
         display: flex;
+
+        .active {
+            border-bottom: 1px solid black;
+        }
 
         li {
             list-style: none;

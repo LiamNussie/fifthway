@@ -82,7 +82,11 @@ const Projects = () => {
             <div className="proj-list">
                 {projects.map(({name, client, img}, index) => {
                     return (
-                        <div style={{backgroundImage: `url(${img})`}} className="project" key={index}>
+                        <div data-aos="slide-up" style={{backgroundImage: `url(${img})`}} className="project" key={index}>
+                            {/* <div className="overlay">
+                                <p className="name">{name}</p>
+                                <p className="client">{client}</p>
+                            </div> */}
                             <p className="name">{name}</p>
                             <p className="client">{client}</p>
                         </div>

@@ -1,22 +1,22 @@
 .homepage {
 
     .hero {
-        height: 85vh;
+        height: 100vh;
         background-color: gray;
         background-image: url(./bg.svg);
         background-size: cover;
 
         .cont {
             display: flex;
-            padding: 0 4rem;
+            padding: 0 6rem;
             height: 80%;
             align-items: center;
     
             .para {
-                width: 600px;
+                width: 581px;
                 color: #fff;
-                font-size: 1.5rem;
-                line-height: 1.5;
+                font-size: 26px;
+                line-height: 35px;
                 margin-top: -2rem;
             }
         }
@@ -26,43 +26,85 @@
         padding: 4rem 6rem;
 
         .para {
-            font-size: 1.4rem;
+            font-size: 26px;
+            line-height: 35px;
+            width: 600px;
             font-weight: 600;
-            line-height: 1.3;
-            width: 500px;
         }
         .more {
             font-weight: 600;
             cursor: pointer;
+            position: relative;
+            width: fit-content;
+
+            &::after {
+                content: "";
+                width: 100%;
+                height: 1px;
+                background-color: #000;
+                border-radius: 4px;
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                transform: scaleX(0);
+                transform-origin: left;
+                transition: transform .25s ease;
+            }
+
+            &:hover::after {
+                transform: scaleX(1);
+            }
         }
     }
 
     .exper {
         background-color: #000;
         color: #fff;
-        padding: 4rem;
+        padding: 11rem 4rem 5.3rem 4rem;
         display: flex;
         gap: 10rem;
+        font-size: 26px;
 
         
         .cont {
+            
             .top {
                 margin-bottom: 1.5rem;
             }
             .para {
-                width: 600px;
+                width: 840px;
                 line-height: 1.5;
                 margin-bottom: 2rem;
                 
             }
             .more {
-                font-size: .9rem;
+                font-size: 1rem;
                 cursor: pointer;
+                position: relative;
+                width: fit-content;
+
+                &::after {
+                    content: "";
+                    width: 100%;
+                    height: 1.5px;
+                    background-color: rgb(255, 255, 255);
+                    border-radius: 4px;
+                    position: absolute;
+                    left: 0;
+                    bottom: 0;
+                    transform: scaleX(0);
+                    transform-origin: left;
+                    transition: transform .25s ease;
+                }
+    
+                &:hover::after {
+                    transform: scaleX(1);
+                }
             }
         }
     }
     .banner {
-        height: 700px;
+        height: 774px;
         background-image: url(./banner.svg);
         background-color: gray;
         background-size: cover;
@@ -74,21 +116,43 @@
 
         .title {
             margin-bottom: 1.5rem;
+            font-size: 26px;
         }
 
         .cont {
+            font-size: 26px;
             .top {
                 margin-bottom: 1.5rem;
             }
             .para {
-                width: 600px;
+                width: 800px;
                 line-height: 1.5;
                 margin-bottom: 2rem;
                 
             }
             .more {
-                font-size: .9rem;
+                font-size: 1rem;
                 cursor: pointer;
+                position: relative;
+            width: fit-content;
+
+            &::after {
+                content: "";
+                width: 100%;
+                height: 1px;
+                background-color: #000;
+                border-radius: 4px;
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                transform: scaleX(0);
+                transform-origin: left;
+                transition: transform .25s ease;
+            }
+
+            &:hover::after {
+                transform: scaleX(1);
+            }
             }
         }
     }

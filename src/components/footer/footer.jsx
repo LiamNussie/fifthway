@@ -1,5 +1,5 @@
 import "./footer.scss";
-import Logo from '../navbar/logo.svg';
+import Logo from './log.svg';
 import Fb from './fb.svg';
 import Ig from './ig.svg';
 import Tw from './tw.svg';
@@ -15,7 +15,7 @@ const Footer = () => {
                 </div>
                 <div className="middle">
                     <p className="tit">Lagos</p>
-                    <p className="add">o. 7-11 Obagun Avenue, off Fatai <br />Atere Way, Matori Industrial Estate.</p>
+                    <p className="add">No. 7-11 Obagun Avenue, off Fatai <br />Atere Way, Matori Industrial Estate.</p>
                 </div>
                 <div className="bottom">
                     <p className="tit">Telephone</p>
@@ -28,7 +28,7 @@ const Footer = () => {
                 </div>
                 <div className="middle">
                     <p className="tit">London</p>
-                    <p className="add">WEM Tower, 1 Harrow Road, Wembley, London, HA9 6FA.</p>
+                    <p className="add">WEM Tower, 1 Harrow Road, Wembley, <br /> London, HA9 6FA.</p>
                 </div>
                 <div className="bottom">
                     <p className="tit">General Inquiries</p>
@@ -38,7 +38,6 @@ const Footer = () => {
             <div className="right">
                 <div className="top">
                     <img src={Logo} alt="fifthway logo" />
-                    <p className="small">Imagination Empowered</p>
                 </div>
                 <div className="middle">
                     <img src={Fb} alt="fb" />

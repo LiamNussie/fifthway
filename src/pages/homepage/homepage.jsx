@@ -15,7 +15,7 @@ const Homepage = () => {
             </div>
             <Info />
             <Projects />
-            <div className="exper">
+            <div data-aos="fade-up" className="exper">
                 <p className="title">Our Expertise</p>
                 <div className="cont">
                     <p className="top">Shaping the brands that build our future.</p>
@@ -24,7 +24,7 @@ const Homepage = () => {
                 </div>
             </div>
             <div className="banner"></div>
-            <div className="about">
+            <div data-aos="fade-up" className="about">
                 <p className="title">A Multidisciplinary Approach</p>
                 <div className="cont">
                     <p className="para">Fifthwall is a blend of creative thinkers, strategists and artists who thrive on collaborative relationships. Our multidisciplinary nature and comprehensive suite of specialised integrated services makes us a model partner for our clients.</p>
