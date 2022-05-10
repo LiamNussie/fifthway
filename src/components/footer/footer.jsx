@@ -22,7 +22,7 @@ const Footer = () => {
                     <p className="phone">+234 (0) 810 904 1169</p>
                 </div>
             </div>
-            <div className="middle">
+            <div className="middle xc">
                 <div className="top">
                     <p className="bold">Want to partner <br /> with us?</p>
                 </div>
@@ -35,7 +35,7 @@ const Footer = () => {
                     <p className="phone">contact@fifthwallagency.com</p>
                 </div>
             </div>
-            <div className="right">
+            <div className="right cx">
                 <div className="top">
                     <img src={Logo} alt="fifthway logo" />
                 </div>

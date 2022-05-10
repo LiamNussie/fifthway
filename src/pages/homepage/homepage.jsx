@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Footer from "../../components/footer/footer";
 import Navbar from "../../components/navbar/navbar";
 import "./homepage.scss";
@@ -20,7 +21,7 @@ const Homepage = () => {
                 <div className="cont">
                     <p className="top">Shaping the brands that build our future.</p>
                     <p className="para">Fifthwall, has a vast degree of experience across several disciplines which keep our ideas fresh and our thinking ahead of its time. Working with real estate developers, agents, architects, property specialist and industry stakeholders; we help shape concepts through strategic storytelling, engaging visuals and innovative technologies that leave a lasting impression. </p>
-                    <p className="more">Learn More</p>
+                    <Link to="/expertise" style={{textDecoration: "none", color: "#fff"}}><p className="more">Learn More</p></Link>
                 </div>
             </div>
             <div className="banner"></div>
@@ -29,7 +30,7 @@ const Homepage = () => {
                 <div className="cont">
                     <p className="para">Fifthwall is a blend of creative thinkers, strategists and artists who thrive on collaborative relationships. Our multidisciplinary nature and comprehensive suite of specialised integrated services makes us a model partner for our clients.</p>
                     <p className="para">Our people work to position each project in the most desirable, refined, and elevated way possible, as a result transforming them into some of the most distinctive properties and products to market.</p>
-                    <p className="more">Learn More</p>
+                    <Link to="/about" style={{textDecoration: "none", color: "#000"}}><p className="more">Learn More</p></Link>
                 </div>
             </div>
             <Footer />

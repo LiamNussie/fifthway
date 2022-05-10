@@ -20,8 +20,8 @@ const Expertise = () => {
                 <li onClick={() => setPage("residential")} className={page === "residential" ? "active" : null}>Residential</li>
                 <li onClick={() => setPage("commercial")} className={page === "commercial" ? "active" : null}>Commercial</li>
                 <li onClick={() => setPage("hospitality")} className={page === "hospitality" ? "active" : null}>Hospitality</li>
-                <li onClick={() => setPage("place")} className={page === "place" ? "active" : null}>Place</li>
-                <li onClick={() => setPage("corporate")} className={page === "corporate" ? "active" : null}>Corporate</li>
+                <li onClick={() => setPage("place")} className={page === "place" ? "active" : null}>Place Branding</li>
+                <li onClick={() => setPage("corporate")} className={page === "corporate" ? "active" : null}>Corporate Branding</li>
                 <li onClick={() => setPage("luxury")} className={page === "luxury" ? "active" : null}>Luxury</li>
             </ul>
             {page === "residential" && <ReuseTemplate bg={Residential} sideText="High-end residential branded campaigns" topText="In the hyper-competitive residential space, standing out isn’t easy. And it’s not enough. A brand needs to inspire, appeal, and engage – it needs to make people want to live there. But above all else it needs to deliver real results." bottomText="A strategic approach from the very beginning can make all the difference to the success and number of sales a residential development achieves – which is why it needs to be carried out professionally – with an agency like Fifthwall. We work carefully to create a strong brand identity that can help to connect a residential development to the community where it lies, help to improve public perception of the site, and also boost leads and sales." />}

@@ -29,7 +29,7 @@ const About = () => {
             </div>
             <div data-aos="fade-up" className="sec1 nx">
                     <p className="title">Our Vision</p>
-                    <p className="title">Impactful Experiences, Stronger Communities .</p>
+                    <p className="title">Impactful Experiences, Stronger Communities.</p>
                     <div className="cont">
                         <p className="para">We want to create delightfully unique brand experiences for the property sector that positively influence their economic value and the quality of life for the people and communities who occupy these spaces. </p>
                     </div>
