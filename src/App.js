@@ -7,6 +7,7 @@ import {useEffect} from "react"
 import Aos from 'aos';
 import "aos/dist/aos.css"
 import Expertise from './pages/expertise/expertise';
+import Services from './pages/services/services';
 
 function App() {
   useEffect(() => {
@@ -18,6 +19,7 @@ function App() {
             <Route exact path="/" component={Homepage} />
             <Route exact path="/about" component={About} />
             <Route exact path="/expertise" component={Expertise} />
+            <Route exact path="/services" component={Services} />
           </Switch>
       </div>
   );

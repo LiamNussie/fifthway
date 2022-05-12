@@ -1,0 +1,35 @@
+.template {
+    padding: 5rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    .topish {
+        display: flex;
+        align-items: baseline;
+        gap: 3rem;
+
+        .lefti {
+            flex: 1 1 700px;
+
+            .title {
+                font-size: 24px;
+                line-height: 35px;
+                width: 739px;
+                font-weight: 600;
+            }
+        }
+        .righti {
+            flex: 0 1 400px;
+
+            .lab {
+                font-weight: 600;
+                color: black;
+            }
+            ul {
+                line-height: 26px;
+                font-weight: 600;
+                li {
+                    list-style: none;
+                }
+            }
+        }
+    }
+}
