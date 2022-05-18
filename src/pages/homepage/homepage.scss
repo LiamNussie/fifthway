@@ -1,23 +1,61 @@
 .homepage {
+    position: relative;
+
+    video {
+        width: 100%;
+        position: relative;
+
+        // .para {
+        //     color: red;
+        //     z-index: 20;
+        // }
+    }
+    .paray {
+        width: 581px;
+        z-index: 10;
+        position: absolute;
+        color: #fff;
+        font-size: 21px;
+        line-height: 35px;
+        top: 5%;
+        left: 5%;
+        // margin-top: -2rem;
+    }
 
     .hero {
         height: 100vh;
         background-color: gray;
-        background-image: url(./bg.svg);
+        // background-image: url(./bg.svg);
         background-size: cover;
 
         .cont {
             display: flex;
-            padding: 0 6rem;
-            height: 80%;
-            align-items: center;
+            // padding: 0 6rem;
+            background-color: gray;
+            height: 100%;
+            // align-items: center;
+            position: relative;
+
+            video {
+                height: 100%;
+                width: 100%;
+                // position: absolute;
+                // top: 0;
+                // bottom: 0;
+                // left: 0;
+                // right: 0;
+                // height: 100vh;
+                // width: 100vw;
+            }
     
             .para {
                 width: 581px;
+                z-index: 10;
+                position: absolute;
                 color: #fff;
                 font-size: 21px;
                 line-height: 35px;
-                margin-top: -2rem;
+                // margin-top: -2rem;
             }
         }
     }
@@ -29,10 +67,10 @@
             font-size: 21px;
             line-height: 35px;
             width: 600px;
-            font-weight: 600;
+            font-weight: 500;
         }
         .more {
-            font-weight: 600;
+            font-weight: 500;
             cursor: pointer;
             position: relative;
             width: max-content;
@@ -113,7 +151,7 @@
         color: #fff;
         background-color: #000;
         padding: 4rem 6rem;
-        font-weight: 600;
+        font-weight: 500;
         border-bottom: 1px solid rgba(202, 202, 202, .7);
 
         .title {

@@ -4,16 +4,22 @@ import Navbar from "../../components/navbar/navbar";
 import "./homepage.scss";
 import Info from "./info/info";
 import Projects from "./projects/projects";
+import Vid from "./hero.mp4";
 
 const Homepage = () => {
     return (
         <div className="homepage">
-            <div className="hero">
+            <Navbar />
+            {/* <div className="hero">
                 <Navbar />
                 <div className="cont">
+                    <video autoPlay loop src={Vid}></video>
+                    <div className="overlay"></div>
                     <p className="para">Fifthwall is a full service, integrated design and marketing agency, based in Lagos, committed to creating value and sustainable growth for the property sector. </p>
                 </div>
-            </div>
+            </div> */}
+            <video autoPlay loop src={Vid}></video>
+            <p className="paray">Fifthwall is a full service, integrated design and marketing agency, based in Lagos, committed to creating value and sustainable growth for the property sector. </p>
             <Info />
             <Projects />
             <div data-aos="fade-up" className="exper">
