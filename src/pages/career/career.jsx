@@ -1,3 +1,4 @@
+import { useState } from "react";
 import Footer from "../../components/footer/footer";
 import Navbar2 from "../../components/navbar2/navbar2";
 import "./career.scss";
@@ -97,6 +98,14 @@ const jobs = [
 
 
 const Career = () => {
+    const [clicked, setClicked] = useState(false);
+
+    const toggle = index => {
+      if(clicked === index) {
+        return setClicked(null)
+      }
+      setClicked(index)
+    }
     return (
         <div className="career">
             <Navbar2 />
@@ -118,12 +127,12 @@ const Career = () => {
                 {jobs.map(({title, jobType, desc, note, responsibilities, skills}, index) => {
                     return (
                         <div key={index} className="job">
-                            <div className="header">
-                                <p className="left">{title}</p>
-                                <p className="right">{jobType}</p>
-                                <img src={Plusicon} alt="plus_icon" />
+                            <div onClick={() => toggle(index)} className="header">
+                                <p className="left tr">{title}</p>
+                                <p className="right tr">{jobType}</p>
+                                <img src={Plusicon} id={clicked === index ? 'times' : null} alt="plus_icon" />
                             </div>
-                            <div className="body">
+                           {clicked === index ? <div className="body">
                                 <p className="desc">{desc}</p>
                                 <p className="info">{note}</p>
                                 <div className="res">
@@ -147,7 +156,7 @@ const Career = () => {
                                     </ul>
                                 </div>
                                 <p className="imp">Apply directly by sending your CV and portfolio to careers@fifthwallagency.com</p>
-                            </div>
+                            </div> : null}
                         </div>
                     )
                 })}
