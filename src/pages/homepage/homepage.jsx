@@ -19,7 +19,7 @@ const Homepage = () => {
                 </div>
             </div> */}
             <video autoPlay loop src={Vid}></video>
-            <p className="paray">Fifthwall is a full service, integrated design and marketing agency, based in Lagos, committed to creating value and sustainable growth for the property sector. </p>
+            {/* <p className="paray">Fifthwall is a full service, integrated design and marketing agency, based in Lagos, committed to creating value and sustainable growth for the property sector. </p> */}
             <Info />
             <Projects />
             <div data-aos="fade-up" className="exper">

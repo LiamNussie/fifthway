@@ -1,0 +1,114 @@
+.career {
+    .sec1 {
+        color: #000;
+        padding: 4rem;
+        margin: 2rem 0 3rem 0;
+        font-weight: 500;
+        font-size: 21px;
+        border-top: 1px solid rgba(0, 0, 0, 0.2);
+
+        .title {
+            margin-bottom: 1.5rem;
+        }
+
+        .cont {
+            .top {
+                margin-bottom: 1.5rem;
+            }
+            .para {
+                width: 800px;
+                line-height: 1.5;
+                margin-bottom: 2rem;
+                
+            }
+            .more {
+                font-size: .9rem;
+                cursor: pointer;
+            }
+        }
+
+        
+    }
+    .bg {
+        height: 578px;
+        background-color: gray;
+        background-image: url(./test.png);
+        background-size: cover;
+    }
+    .sec2 {
+        color: #000;
+        padding: 4rem;
+        margin: 1rem 0;
+        font-weight: 500;
+        font-size: 21px;
+
+        .title {
+            margin-bottom: 1.5rem;
+        }
+
+        .cont {
+            .top {
+                margin-bottom: 1.5rem;
+            }
+            .para {
+                width: 800px;
+                line-height: 1.5;
+                margin-bottom: 2rem;
+                
+            }
+            .more {
+                font-size: .9rem;
+                cursor: pointer;
+            }
+        }
+
+        
+    }
+
+    .jobs {
+        padding: 0 4rem 2rem 4rem;
+
+        .job {
+            margin-bottom: 3rem;
+            .header {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding-bottom: 1.2rem;
+                margin-bottom: 2rem;
+                border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    
+                p {
+                    font-size: 17px;
+                }
+            }
+            .body {
+                width: 746px;
+                font-size: 17px;
+
+                .imp {
+                    font-weight: 600;
+                    margin-top: 1.5rem;
+                }
+
+                .desc {
+                    line-height: 25px;
+                }
+                .info {
+                    margin-top: 1.5rem;
+                }
+                .res {
+                    margin-top: 1.5rem;
+                    .title {
+                        text-decoration: underline;
+                    }
+                    .ress {
+                        margin-top: 1.2rem;
+                        margin-left: 1.2rem;
+                        line-height: 25px;
+                    }
+                }
+            }
+        }
+    }
+}
