@@ -11,6 +11,8 @@ import Services from './pages/services/services';
 import Media from './pages/media/media';
 import Career from './pages/career/career';
 import Contact from './pages/contact/contact';
+import Projects from './pages/projects/projects';
+import ViewMedia from './pages/media/viewMedia/viewMedia';
 
 function App() {
   useEffect(() => {
@@ -26,6 +28,8 @@ function App() {
             <Route exact path="/careers" component={Career} />
             <Route exact path="/contact" component={Contact} />
             <Route exact path="/media" component={Media} />
+            <Route exact path="/view-media" component={ViewMedia} />
+            <Route exact path="/projects" component={Projects} />
           </Switch>
       </div>
   );
